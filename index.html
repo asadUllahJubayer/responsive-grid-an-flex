@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            max-width: 80%;
+            margin: 5px auto;        }
+        .foods-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+
+        .food {
+            /* border: 1px solid tan; */
+            background-color: rgb(249, 249, 234);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 2px 2px 10px rgb(231, 231, 208) ;
+            margin-top: 5px;
+        }
+        .details{
+            background-color: rgb(250, 250, 250);
+            padding: 20px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            word-spacing: 1px;
+            color: rgb(30, 29, 29);
+        }
+
+        .food-img-box {
+            width: 90%;
+            height: 60%;
+           
+
+        }
+
+        .food-img-box img {
+            border-radius: 7px;
+            width: 100%;
+            height: 100%;
+
+        }
+        @media screen and (max-width: 608px ) {
+            .foods-container{
+                grid-template-columns: repeat(1,1fr);
+            }
+            body{
+                max-width: 95%;
+                margin: 5px auto;
+            }
+        }
+        @media screen and  ((min-width:609px) and  (max-width:980px)){
+            .foods-container{
+                grid-template-columns: repeat(2,2fr);
+            }
+            body{
+                max-width: 90%;
+                margin: 5px auto;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Choose your Food</h1>
+    <div class="foods-container">
+        <div class="food">
+            <div class="food-img-box"><img src="image/4.jpg" alt=""></div>
+
+            <div class="details">
+                <h2>Lorem, ipsum dolor.</h2>
+                <h3>Lorem ipsum dolor sit.</h3>
+                <h4>price:201</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima architecto tempora a cupiditate
+                    veniam molestiae, rem, temporibus voluptatibus obcaecati itaque, ut ratione quasi cum blanditiis
+                    omnis veritatis debitis facilis doloremque.</p>
+            </div>
+        </div>
+        <div class="food">
+            <div class="food-img-box"><img src="image/1.jpg" alt=""></div>
+            <div class="details">
+                <h2>Lorem, ipsum dolor.</h2>
+                <h3>Lorem ipsum dolor sit.</h3>
+                <h4>price:201</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima architecto tempora a cupiditate
+                    veniam molestiae, rem, temporibus voluptatibus obcaecati itaque, ut ratione quasi cum blanditiis
+                    omnis veritatis debitis facilis doloremque.</p>
+            </div>
+        </div>
+        <div class="food">
+            <div class="food-img-box"><img src="image/2.jpg" alt=""></div>
+            <div class="details">
+                <h2>Lorem, ipsum dolor.</h2>
+                <h3>Lorem ipsum dolor sit.</h3>
+                <h4>price:201</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima architecto tempora a cupiditate
+                    veniam molestiae, rem, temporibus voluptatibus obcaecati itaque, ut ratione quasi cum blanditiis
+                    omnis veritatis debitis facilis doloremque.</p>
+            </div>
+        </div>
+        <div class="food">
+            <div class="food-img-box"><img src="image/6.jpg" alt=""></div>
+            <div class="details">
+                <h2>Lorem, ipsum dolor.</h2>
+                <h3>Lorem ipsum dolor sit.</h3>
+                <h4>price:201</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima architecto tempora a cupiditate
+                    veniam molestiae, rem, temporibus voluptatibus obcaecati itaque, ut ratione quasi cum blanditiis
+                    omnis veritatis debitis facilis doloremque.</p>
+            </div>
+        </div>
+        <div class="food">
+            <div class="food-img-box"><img src="image/8.jpg" alt=""></div>
+            <div class="details">
+                <h2>Lorem, ipsum dolor.</h2>
+                <h3>Lorem ipsum dolor sit.</h3>
+                <h4>price:201</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima architecto tempora a cupiditate
+                    veniam molestiae, rem, temporibus voluptatibus obcaecati itaque, ut ratione quasi cum blanditiis
+                    omnis veritatis debitis facilis doloremque.</p>
+            </div>
+        </div>
+        <div class="food">
+            <div class="food-img-box"><img src="image/9.jpg" alt=""></div>
+            <div class="details">
+                <h2>Lorem, ipsum dolor.</h2>
+                <h3>Lorem ipsum dolor sit.</h3>
+                <h4>price:201</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima architecto tempora a cupiditate
+                    veniam molestiae, rem, temporibus voluptatibus obcaecati itaque, ut ratione quasi cum blanditiis
+                    omnis veritatis debitis facilis doloremque.</p>
+            </div>
+        </div>
+        <div class="food">
+            <div class="food-img-box"><img src="image/10.jpg" alt=""></div>
+            <div class="details">
+                <h2>Lorem, ipsum dolor.</h2>
+                <h3>Lorem ipsum dolor sit.</h3>
+                <h4>price:201</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima architecto tempora a cupiditate
+                    veniam molestiae, rem, temporibus voluptatibus obcaecati itaque, ut ratione quasi cum blanditiis
+                    omnis veritatis debitis facilis doloremque.</p>
+            </div>
+        </div>
+        <div class="food">
+            <div class="food-img-box"><img src="image/11.jpg" alt=""></div>
+            <div class="details">
+                <h2>Lorem, ipsum dolor.</h2>
+                <h3>Lorem ipsum dolor sit.</h3>
+                <h4>price:201</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima architecto tempora a cupiditate
+                    veniam molestiae, rem, temporibus voluptatibus obcaecati itaque, ut ratione quasi cum blanditiis
+                    omnis veritatis debitis facilis doloremque.</p>
+            </div>
+        </div>
+        <div class="food">
+            <div class="food-img-box"><img src="image/12.jpg" alt=""></div>
+            <div class="details">
+                <h2>Lorem, ipsum dolor.</h2>
+                <h3>Lorem ipsum dolor sit.</h3>
+                <h4>price:201</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima architecto tempora a cupiditate
+                    veniam molestiae, rem, temporibus voluptatibus obcaecati itaque, ut ratione quasi cum blanditiis
+                    omnis veritatis debitis facilis doloremque.</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
